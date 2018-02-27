@@ -1,38 +1,95 @@
+$navbar-color:#3c3e42;
 
-// Body
-$body-bg: #f5f8fa;
+body {
+  padding-top: 60px;
+}
 
-// Borders
-$laravel-border-color: darken($body-bg, 10%);
-$list-group-border: $laravel-border-color;
-$navbar-default-border: $laravel-border-color;
-$panel-default-border: $laravel-border-color;
-$panel-inner-border: $laravel-border-color;
+section {
+  overflow: auto;
+}
 
-// Brands
-$brand-primary: #3097D1;
-$brand-info: #8eb4cb;
-$brand-success: #2ab27b;
-$brand-warning: #cbb956;
-$brand-danger: #bf5329;
+textarea {
+  resize: vertical;
+}
 
-// Typography
-$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
-$font-family-sans-serif: "Raleway", sans-serif;
-$font-size-base: 14px;
-$line-height-base: 1.6;
-$text-color: #636b6f;
+.jumbotron {
+  text-align: center;
+}
 
-// Navbar
-$navbar-default-bg: #fff;
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
 
-// Buttons
-$btn-default-color: $text-color;
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
-// Inputs
-$input-border: lighten($text-color, 40%);
-$input-border-focus: lighten($brand-primary, 25%);
-$input-color-placeholder: lighten($text-color, 30%);
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
 
-// Panels
-$panel-default-heading-bg: #fff;
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+.navbar-inverse {
+  background-color: $navbar-color;
+}
+
+#logo {
+  float:left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color:#fff;
+  text-decoration: none;
+  text-space: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color : #fff;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color:#777777;
+
+  a {
+    color:#555;
+  }
+
+  a:hover {
+    color: #222;
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+  img.brand-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .slogon {
+    font-size:13px;
+    font-weight: bold;
+  }
+}
