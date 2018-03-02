@@ -8511,3 +8511,67 @@ input {
   margin-top: 50px;
 }
 
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
+
+.user-name h3 {
+  text-align: center;
+  font-size: 0.5em;
+  margin-top: 1px;
+}
+
+.page-common {
+  text-align: center;
+}
+
+.page-common ul li a {
+  padding: 6px 24px;
+}
+
+.page-common ul li.active span {
+  padding: 6px 24px;
+}
+
+.user-header {
+  height: 30px;
+  width: auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  border-bottom: none;
+  position: static;
+}
+
+.user-header ul {
+  height: 30px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.user-header ul li {
+  float: right;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+}
+
+.user-header ul li button {
+  height: 20px;
+  width: 20px;
+  padding: 0px 0px;
+  line-height: 20px;
+}
+
+.user-header ul li.user-title {
+  float: left;
+}
+

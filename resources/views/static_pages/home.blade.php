@@ -1,6 +1,7 @@
 @extends('layouts.default')
 @section('title','主页')
 @section('content')
+    @include('shared._messages')
     <div class="jumbotron">
         <h1>hello Laravel</h1>
         <p class="lead">
